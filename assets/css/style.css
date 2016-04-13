@@ -1,0 +1,71 @@
+body {
+  background: #C9C4C4;
+}
+
+
+.header h1 {
+  font-size: 3.5em;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.one, .two, .three, .four, .five, .six {
+  float: left;
+  display: inline-block;
+  width: 30%;
+  /*padding: 0 5px;
+  border: 1px solid black;*/
+  margin: 3px;
+  overflow: hidden;
+}
+
+.one:hover {
+  opacity: 0.5;
+}
+
+.two:hover {
+  opacity: 0.5;
+}
+
+.three:hover {
+  opacity: 0.5;
+}
+
+.four:hover {
+  opacity: 0.5;
+}
+
+.five:hover {
+  opacity: 0.5;
+}
+
+.six:hover {
+  opacity: 0.5;
+}
+
+@media (max-width: 1000px) {
+  .one, .two, .three, .four, .five, .six {
+    float: left;
+  }
+}
+
+@media (min-width: 800px) {
+  .one, .two, .three, .four, .five, .six {
+    float: left;
+  }
+}
+
+@media (max-width: 350px) {
+  .one, .two, .three, .four, .five, .six {
+    float: none;
+    width: 98%;
+    overflow: hidden;
+  }
+
+  .header {
+    height: 100px
+    clear: bottom;
+  }
+}
+
+}
